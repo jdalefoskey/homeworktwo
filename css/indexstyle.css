@@ -1,4 +1,15 @@
-
+@media only screen and (max-width: 800px) {
+    a {
+        margin-top: -10px;
+        margin-left: -10px;
+        float: left;
+        display: block;
+        padding-bottom: 0;
+    }
+    .myColrow2 {
+        max-width: 80%;
+    }
+}
 
 .myColrow2 {
     margin-left: 50px;

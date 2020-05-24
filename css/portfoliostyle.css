@@ -1,3 +1,30 @@
+@media only screen and (max-width: 800px) {
+    * {
+        display: block;
+        float: left;
+    }
+    
+    a {
+            margin-top: -10px;
+            margin-left: -10px;
+            float: left;
+            display: block;
+            padding-bottom: 0;
+    }
+
+    .myColrow2 {
+        max-width: 90%;
+    }
+    .columns {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .myRow3 {
+        clear: both;
+        width: 100%;
+    }
+}
+
 .myColrow2, .col2row1, .col2row2, .col2row3, .col2row4  {
     margin-top: 20px;
 }

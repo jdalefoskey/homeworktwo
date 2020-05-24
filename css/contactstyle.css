@@ -1,3 +1,16 @@
+@media only screen and (max-width: 800px) {
+    a {
+      margin-top: -10px;
+      margin-left: -10px;
+      float: left;
+      display: block;
+      padding-bottom: 0;
+    }
+    .row2Box {
+      max-width: 80%;
+    }
+}
+
 .row2Box {
     height: 500px;
     width: 500px;
