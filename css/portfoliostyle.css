@@ -1,23 +1,28 @@
-.myColrow2 {
-    
+.myColrow2, .col2row1, .col2row2, .col2row3, .col2row4  {
     margin-top: 20px;
+}
+
+.col2row1, .col2row2, .col2row3, .col2row4 {
+    margin-bottom: 20px;
+    background-color: white;
+    width: 99%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.myColrow2 {
     margin-bottom: 25px;
     background-color: white;
     margin-left: 25px;
 }
+
 .myRow2 {
     height: 800px;
-   
 }
 
 .col2row1 {
-    background-color: white;
+    
     height: 80px;
-    width: 99%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
     border-bottom: darkgray solid 2px;
 }
 
@@ -27,55 +32,8 @@
     font-weight: 800;
 }
 
-.col2row2 {
-    background-color: white;
+.col2row2, .col2row3, .col2row4 {
     height: 150px;
-    width: 99%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    
-}
-
-.col2row3 {
-    background-color: white;
-    height: 150px;
-    width: 99%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    
-}
-
-.col2row3 {
-    background-color: white;
-    height: 150px;
-    width: 99%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    
-}
-.col2row4 {
-    background-color: white;
-    height: 150px;
-    width: 99%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    
-}
-.columnOne {
-  
-
-}
-
-.columnTwo {
-   
 }
 
 .cards {
@@ -86,44 +44,31 @@
     float: left;
 }
 
-.card1 {
-    background-image: url('chess.jpg');
+.card1, .card2, .card3, .card4, .card5 {
     background-repeat: no-repeat;
     background-position: center; 
     position: absolute;
     width: 90%;
-    
+}
+
+.card1 {
+    background-image: url('../assets/Images/chess.jpg');
 }
 
 .card2 {
-    background-image: url("pool.jpg");
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: absolute;
-    width: 90%;
+    background-image: url("../assets/Images/pool.jpg");
 }
+
 .card3 {
-    background-image: url("dice.jpg");
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: absolute;
-    width: 90%;
+    background-image: url("../assets/Images/dice.jpg");
 }
 
 .card4 {
-    background-image: url("jenga.jpg");
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: absolute;
-    width: 90%;
+    background-image: url("../assets/Images/jenga.jpg");
 }
 
 .card5 {
-    background-image: url("tetris.jpg");
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: absolute;
-    width: 90%;
+    background-image: url("../assets/Images/tetris.jpg");
 }
 
 .banner {
@@ -135,5 +80,4 @@
     padding-top: 10px;
     text-align: center;
     font-weight: 800;
-   
 }

@@ -4,31 +4,15 @@
     background-color: white;
     margin-top: 50px;
     margin-left: 25px;
-
 }
+
 .row2BoxHead {
-    
     height: 70px;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 20px;
     color: #54b096;
     border-bottom: 1px solid darkgray;
-
-}
-
-.formName {
-   
-}
-
-.contactName {
-    margin-left: 20px;
-    max-width: 80%;
-}
-
-.email {
-    margin-left: 20px;
-    max-width: 80%;
 }
 
 .formLabel {
@@ -41,19 +25,14 @@
     margin-bottom: 10px;
 }
 
-.contactEmail {
+.contactEmail, .contactText, .email, .contactName {
     margin-left: 20px;
     max-width: 80%;
 }
 
-.contactText {
-    margin-left: 20px;
-    max-width: 80%;
-}
 .submitButton {
     margin-left: 35px;
     background-color: #54b096;
-    
 }
 
 

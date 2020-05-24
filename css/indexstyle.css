@@ -1,27 +1,22 @@
+
+
 .myColrow2 {
-    
     margin-left: 50px;
     margin-top: 50px;
     height: 400px;
     background-color: white;
-
 }
 
 .boxHeader {
-   
     margin-top: 20px;
     height: 60px;
     border-bottom: lightgray solid 2px;
-
-
 }
 
 .boxHeaderText {
     color: #54b096;
     padding-top: 10px;
-    
     font-weight: 800;
-    
 }
 
 .boxBody {
@@ -31,4 +26,7 @@
 
 #image {
     float: left;
+    padding-right: 10px;
 }
+
+
